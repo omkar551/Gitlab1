@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="gradBrand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect width="1000" height="640" rx="12" fill="url(#bg2)" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Browser Header -->
+  <rect width="1000" height="42" rx="12" fill="#161f30" />
+  <rect y="30" width="1000" height="12" fill="#161f30" />
+  <circle cx="24" cy="21" r="6" fill="#ef4444" />
+  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="21" r="6" fill="#10b981" />
+  
+  <!-- URL Bar -->
+  <rect x="220" y="10" width="560" height="22" rx="11" fill="#0d1424" stroke="#1f2937" />
+  <text x="500" y="25" fill="#60a5fa" font-family="monospace" font-size="11" text-anchor="middle">http://localhost:8080 — DevPulse DevOps Dashboard v1.4.0</text>
+
+  <!-- Navbar -->
+  <rect x="0" y="42" width="1000" height="48" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="30" y="52" width="28" height="28" rx="6" fill="url(#gradBrand)"/>
+  <text x="44" y="71" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="16" text-anchor="middle">⚡</text>
+  <text x="70" y="71" fill="#f9fafb" font-family="sans-serif" font-weight="800" font-size="16">DevPulse</text>
+  <rect x="145" y="58" width="65" height="18" rx="4" fill="#1e3a8a"/>
+  <text x="177" y="70" fill="#93c5fd" font-family="monospace" font-size="9" text-anchor="middle">v1.4.0-prod</text>
+
+  <text x="730" y="71" fill="#10b981" font-family="sans-serif" font-size="12" font-weight="600">● CI/CD Active</text>
+  <rect x="830" y="54" width="140" height="26" rx="6" fill="#3b82f6"/>
+  <text x="900" y="71" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">GitHub Repository</text>
+
+  <!-- Hero Section -->
+  <g transform="translate(30, 105)">
+    <rect width="940" height="95" rx="8" fill="#161f30" stroke="#1f2937"/>
+    <text x="470" y="32" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">CONTINUOUS INTEGRATION &amp; DEPLOYMENT LIVE DEMO</text>
+    <text x="470" y="62" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800" text-anchor="middle">Automated DevOps Pipeline &amp; Cloud Tracker</text>
+    <text x="470" y="82" fill="#9ca3af" font-family="sans-serif" font-size="12" text-anchor="middle">Production-grade web portal integrated with GitHub Actions, Docker, and Automated Verification Tests</text>
+  </g>
+
+  <!-- CI/CD Flow -->
+  <g transform="translate(30, 215)">
+    <text x="0" y="0" fill="#f9fafb" font-family="sans-serif" font-size="14" font-weight="700">DevOps CI/CD Workflow Pipeline</text>
+    
+    <!-- Stage Cards -->
+    <g transform="translate(0, 12)">
+      <!-- S1 -->
+      <rect x="0" y="0" width="170" height="75" rx="8" fill="#131c2e" stroke="#10b981" stroke-width="1.5"/>
+      <text x="20" y="30" fill="#10b981" font-size="18">📥</text>
+      <text x="50" y="28" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">1. Checkout</text>
+      <text x="50" y="44" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">✓ Passed (2.1s)</text>
+      <text x="20" y="62" fill="#6b7280" font-family="monospace" font-size="9">Git SCM Synced</text>
+
+      <line x1="172" y1="37" x2="190" y2="37" stroke="#10b981" stroke-width="2"/>
+
+      <!-- S2 -->
+      <rect x="192" y="0" width="170" height="75" rx="8" fill="#131c2e" stroke="#10b981" stroke-width="1.5"/>
+      <text x="212" y="30" fill="#10b981" font-size="18">🔍</text>
+      <text x="242" y="28" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">2. Lint &amp; Syntax</text>
+      <text x="242" y="44" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">✓ Passed (4.8s)</text>
+      <text x="212" y="62" fill="#6b7280" font-family="monospace" font-size="9">ESLint Validated</text>
+
+      <line x1="364" y1="37" x2="382" y2="37" stroke="#10b981" stroke-width="2"/>
+
+      <!-- S3 -->
+      <rect x="384" y="0" width="170" height="75" rx="8" fill="#131c2e" stroke="#10b981" stroke-width="1.5"/>
+      <text x="404" y="30" fill="#10b981" font-size="18">🧪</text>
+      <text x="434" y="28" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">3. Test Suite</text>
+      <text x="434" y="44" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">✓ 11/11 Passed</text>
+      <text x="404" y="62" fill="#6b7280" font-family="monospace" font-size="9">Zero Failures</text>
+
+      <line x1="556" y1="37" x2="574" y2="37" stroke="#10b981" stroke-width="2"/>
+
+      <!-- S4 -->
+      <rect x="576" y="0" width="170" height="75" rx="8" fill="#131c2e" stroke="#10b981" stroke-width="1.5"/>
+      <text x="596" y="30" fill="#10b981" font-size="18">🐳</text>
+      <text x="626" y="28" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">4. Docker Build</text>
+      <text x="626" y="44" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">✓ Built (12.4s)</text>
+      <text x="596" y="62" fill="#6b7280" font-family="monospace" font-size="9">devpulse-web:v1.4</text>
+
+      <line x1="748" y1="37" x2="766" y2="37" stroke="#10b981" stroke-width="2"/>
+
+      <!-- S5 -->
+      <rect x="768" y="0" width="170" height="75" rx="8" fill="#131c2e" stroke="#10b981" stroke-width="1.5"/>
+      <text x="788" y="30" fill="#10b981" font-size="18">🚀</text>
+      <text x="818" y="28" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">5. Deployment</text>
+      <text x="818" y="44" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">✓ Port 8080</text>
+      <text x="788" y="62" fill="#10b981" font-family="monospace" font-size="9">Serving Traffic</text>
+    </g>
+  </g>
+
+  <!-- Live Health Metrics Cards -->
+  <g transform="translate(30, 325)">
+    <text x="0" y="0" fill="#f9fafb" font-family="sans-serif" font-size="14" font-weight="700">System Telemetry &amp; Resource Allocation</text>
+
+    <g transform="translate(0, 12)">
+      <!-- CPU -->
+      <rect x="0" y="0" width="220" height="95" rx="8" fill="#161f30" stroke="#1f2937"/>
+      <text x="15" y="24" fill="#9ca3af" font-family="sans-serif" font-size="11">CPU Utilization</text>
+      <text x="15" y="56" fill="#3b82f6" font-family="monospace" font-size="24" font-weight="800">24.8%</text>
+      <rect x="15" y="68" width="190" height="6" rx="3" fill="#1f2937"/>
+      <rect x="15" y="68" width="47" height="6" rx="3" fill="#3b82f6"/>
+      <text x="15" y="87" fill="#6b7280" font-family="sans-serif" font-size="9">4 Cores Active</text>
+
+      <!-- MEM -->
+      <rect x="240" y="0" width="220" height="95" rx="8" fill="#161f30" stroke="#1f2937"/>
+      <text x="255" y="24" fill="#9ca3af" font-family="sans-serif" font-size="11">Memory Allocation</text>
+      <text x="255" y="56" fill="#10b981" font-family="monospace" font-size="24" font-weight="800">42.1%</text>
+      <rect x="255" y="68" width="190" height="6" rx="3" fill="#1f2937"/>
+      <rect x="255" y="68" width="80" height="6" rx="3" fill="#10b981"/>
+      <text x="255" y="87" fill="#6b7280" font-family="sans-serif" font-size="9">512MB / 1024MB</text>
+
+      <!-- Latency -->
+      <rect x="480" y="0" width="220" height="95" rx="8" fill="#161f30" stroke="#1f2937"/>
+      <text x="495" y="24" fill="#9ca3af" font-family="sans-serif" font-size="11">API Latency</text>
+      <text x="495" y="56" fill="#8b5cf6" font-family="monospace" font-size="24" font-weight="800">18 ms</text>
+      <rect x="495" y="68" width="190" height="6" rx="3" fill="#1f2937"/>
+      <rect x="495" y="68" width="38" height="6" rx="3" fill="#8b5cf6"/>
+      <text x="495" y="87" fill="#6b7280" font-family="sans-serif" font-size="9">P99 &lt; 45ms</text>
+
+      <!-- Uptime -->
+      <rect x="720" y="0" width="220" height="95" rx="8" fill="#161f30" stroke="#1f2937"/>
+      <text x="735" y="24" fill="#9ca3af" font-family="sans-serif" font-size="11">Service Uptime</text>
+      <text x="735" y="56" fill="#10b981" font-family="monospace" font-size="24" font-weight="800">99.99%</text>
+      <rect x="735" y="68" width="190" height="6" rx="3" fill="#1f2937"/>
+      <rect x="735" y="68" width="190" height="6" rx="3" fill="#10b981"/>
+      <text x="735" y="87" fill="#6b7280" font-family="sans-serif" font-size="9">Zero Outages</text>
+    </g>
+  </g>
+
+  <!-- Containers Table -->
+  <g transform="translate(30, 455)">
+    <text x="0" y="0" fill="#f9fafb" font-family="sans-serif" font-size="14" font-weight="700">Docker Orchestrated Containers (docker-compose)</text>
+    
+    <g transform="translate(0, 10)">
+      <rect width="940" height="150" rx="8" fill="#111827" stroke="#1f2937"/>
+      
+      <!-- Table Header -->
+      <rect width="940" height="30" rx="8" fill="#161f30"/>
+      <text x="20" y="20" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="600">CONTAINER</text>
+      <text x="280" y="20" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="600">IMAGE</text>
+      <text x="500" y="20" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="600">STATUS</text>
+      <text x="650" y="20" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="600">PORT BINDING</text>
+      <text x="850" y="20" fill="#9ca3af" font-family="sans-serif" font-size="11" font-weight="600">LOGS</text>
+
+      <!-- Row 1 -->
+      <circle cx="25" cy="52" r="4" fill="#10b981"/>
+      <text x="36" y="56" fill="#ffffff" font-family="monospace" font-size="12">devops-web-frontend</text>
+      <text x="280" y="56" fill="#93c5fd" font-family="monospace" font-size="11">devpulse/web:1.4.0</text>
+      <rect x="500" y="44" width="70" height="18" rx="4" fill="rgba(16,185,129,0.2)"/>
+      <text x="535" y="57" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">RUNNING</text>
+      <text x="650" y="56" fill="#9ca3af" font-family="monospace" font-size="11">0.0.0.0:8080->80/tcp</text>
+      <text x="850" y="56" fill="#3b82f6" font-family="sans-serif" font-size="11">View Log</text>
+
+      <!-- Row 2 -->
+      <circle cx="25" cy="92" r="4" fill="#10b981"/>
+      <text x="36" y="96" fill="#ffffff" font-family="monospace" font-size="12">devops-api-service</text>
+      <text x="280" y="96" fill="#93c5fd" font-family="monospace" font-size="11">devpulse/api:1.2.0</text>
+      <rect x="500" y="84" width="70" height="18" rx="4" fill="rgba(16,185,129,0.2)"/>
+      <text x="535" y="97" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">RUNNING</text>
+      <text x="650" y="96" fill="#9ca3af" font-family="monospace" font-size="11">0.0.0.0:5000->5000/tcp</text>
+      <text x="850" y="96" fill="#3b82f6" font-family="sans-serif" font-size="11">View Log</text>
+
+      <!-- Row 3 -->
+      <circle cx="25" cy="132" r="4" fill="#8b5cf6"/>
+      <text x="36" y="136" fill="#ffffff" font-family="monospace" font-size="12">redis-metrics-cache</text>
+      <text x="280" y="136" fill="#93c5fd" font-family="monospace" font-size="11">redis:7-alpine</text>
+      <rect x="500" y="124" width="70" height="18" rx="4" fill="rgba(139,92,246,0.2)"/>
+      <text x="535" y="137" fill="#8b5cf6" font-family="sans-serif" font-size="10" font-weight="600" text-anchor="middle">HEALTHY</text>
+      <text x="650" y="136" fill="#9ca3af" font-family="monospace" font-size="11">0.0.0.0:6379->6379/tcp</text>
+      <text x="850" y="136" fill="#3b82f6" font-family="sans-serif" font-size="11">View Log</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540">
+  <!-- Terminal Window Frame -->
+  <rect width="1000" height="540" rx="10" fill="#0c1017" stroke="#1f2937" stroke-width="2"/>
+  
+  <!-- Terminal Window Header -->
+  <rect width="1000" height="40" rx="10" fill="#161b22"/>
+  <rect y="28" width="1000" height="12" fill="#161b22"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+  <text x="500" y="25" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">powershell — tests/run_tests.ps1 execution</text>
+
+  <!-- Content -->
+  <g transform="translate(30, 65)">
+    <text x="0" y="0" fill="#58a6ff" font-family="monospace" font-size="13" font-weight="700">PS C:\Users\omkar\devops-project&gt; <tspan fill="#f0f6fc">powershell -ExecutionPolicy Bypass -File .\tests\run_tests.ps1</tspan></text>
+    
+    <text x="0" y="28" fill="#58a6ff" font-family="monospace" font-size="12">==========================================================</text>
+    <text x="0" y="46" fill="#58a6ff" font-family="monospace" font-size="12">   DevPulse Automated Test Suite &amp; Criteria Verification</text>
+    <text x="0" y="64" fill="#58a6ff" font-family="monospace" font-size="12">==========================================================</text>
+
+    <text x="0" y="96" fill="#e3b341" font-family="monospace" font-size="12">1. Testing Project Files &amp; Structure...</text>
+    <text x="0" y="118" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Website Entry Point (index.html) exists</text>
+    <text x="0" y="138" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Styling Engine (styles.css) exists</text>
+    <text x="0" y="158" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Application Logic (app.js) exists</text>
+
+    <text x="0" y="190" fill="#e3b341" font-family="monospace" font-size="12">2. Testing DevOps Tools Integration...</text>
+    <text x="0" y="212" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Docker Container Configuration (Dockerfile) exists</text>
+    <text x="0" y="232" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Docker Compose (docker-compose.yml) exists</text>
+    <text x="0" y="252" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Nginx Web Server Config (nginx.conf) exists</text>
+    <text x="0" y="272" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] GitHub Actions CI/CD Workflow exists</text>
+    <text x="0" y="292" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Jenkins Automation Pipeline (Jenkinsfile) exists</text>
+
+    <text x="0" y="324" fill="#e3b341" font-family="monospace" font-size="12">3. Testing Content &amp; Health Verification...</text>
+    <text x="0" y="346" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Index HTML includes pipeline visualizer</text>
+    <text x="0" y="366" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] Dockerfile contains HEALTHCHECK instruction</text>
+    <text x="0" y="386" fill="#3fb950" font-family="monospace" font-size="12">  [PASS] GitHub Actions Workflow defines all automated jobs</text>
+
+    <text x="0" y="418" fill="#58a6ff" font-family="monospace" font-size="12">==========================================================</text>
+    <text x="0" y="438" fill="#3fb950" font-family="monospace" font-size="13" font-weight="700">   Test Results: 11 / 11 Passed (100% Success Rate)</text>
+    <text x="0" y="456" fill="#58a6ff" font-family="monospace" font-size="12">==========================================================</text>
+  </g>
+</svg>
