@@ -198,4 +198,4 @@ This repository satisfies all instructions provided in the project announcement:
 - **Course / Module:** DevOps & Web Engineering
 - **Project Title:** DevPulse — Modern DevOps & Cloud Infrastructure Portal
 - **Submission Date:** End of Week (October 2026)
-- **Repository URL:** *Add your GitHub repository URL here before submitting to Google Sheet*
+- **Repository URL:** https://github.com/omkar551/Gitlab1
